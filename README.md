@@ -1,6 +1,6 @@
 # Cat-A-Gram in React
 
-Descripton: This is the final project of the Girl Develop It Intro to React Course. I was tasked with creating a mock-up of a few components of Instagram. I will document my progress in my commits and here on GitHub.
+Descripton: This is the culminating project of the Girl Develop It Intro to React Cohort. I was tasked with creating a mock-up of a few components of Instagram. I will document my progress in my commits and here on GitHub.
 
 ## Table of contents
 
