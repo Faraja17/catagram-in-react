@@ -19,7 +19,7 @@ const Url = () => {
                 placeholder='enter a url here'
                 onChange={setUrl}
             />
-            <button class='submit' type= 'submit'>Submit</button>
+            <button className='submit' type= 'submit'>Submit</button>
         </form>
         </div>
         
