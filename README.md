@@ -21,9 +21,9 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 
 
 ### Screenshots
-| <b>Mobile View</b>| 
-|:--:|
-| ![My Solution for Mobile]() |
+<!-- | <b>Mobile View</b>|  -->
+<!-- |:--:| -->
+<!-- | ![My Solution for Mobile]() | -->
 
 | <b>Desktop View</b>| 
 |:--:|
