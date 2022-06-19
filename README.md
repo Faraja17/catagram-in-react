@@ -27,17 +27,12 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 
 | <b>Desktop View</b>| 
 |:--:|
-| ![My Solution for Desktop]() |
-
-| <b>More Screenshots</b> | 
-|:--:|
-| [![Link to Google Slides](link-to-slides.png)](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146) |
-| [Direct Link to Google Presentation](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146)|
+| ![My Solution for Desktop](https://github.com/Faraja17/catagram-in-react/blob/main/Screen%20Shot%202022-06-19%20at%203.22.27%20AM.png?raw=true) |
 
 
 ### Links
 
-- Live Site URL: [name of site](URL)
+- Live Site URL: [Visit Catagram on Codesandbox!](https://z11j68.csb.app/)
 
 ## My process
 
