@@ -1,38 +1,70 @@
 .App {
+  
+}
+.nav {
+  background-color: rgb(234, 80, 80);
+  line-height: 4rem;
+
+}
+
+a {
+  text-align: left;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1%;
+  margin-top: 10%;
+}
+
+.form {
+  margin-top: 2%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.url {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  width: 40%;
+  border-style: solid;
+  border-color: rgb(225, 222, 222);
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submit {
+  font-size: 1.2rem;
+  line-height: 2.25rem;
   color: white;
+  background-color: rgb(219, 156, 80);
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+img  {
+  width: 44.5%;
+  margin: 1% auto 0;
+  display: block;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.likesCount {
+  text-align: left;
+  border-style: solid;
+  border-color: rgb(225, 222, 222);
+  width: 44.2%;
+  margin: 0 auto;
+}
+
+h3 {
+  display: inline-block;
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: .5%;
+  border-style: none;
+  line-height: 2.5rem;
+  padding: 1.5%;
+  text-align: left;
+}
+
+.like {
+  background-color: white;
+  border: none;
+  font-size: 1.2rem;
 }
