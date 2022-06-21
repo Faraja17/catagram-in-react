@@ -49,14 +49,14 @@ In addition to creating the template, I used what I had learned in the exercises
 
 ### What I learned
 
--function vs. class components
--JSX
--ternary operator
--props
--one-way data flow
--event handling
--states
--review of display vs. visibility properties
+- function vs. class components
+- JSX
+- ternary operator
+- props
+- one-way data flow
+- event handling
+- states
+- review of display vs. visibility properties
 
 ### Continued development
 
