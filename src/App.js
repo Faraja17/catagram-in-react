@@ -4,7 +4,7 @@ import Url from './Components/Url';
 import Likes from './Components/Likes';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
      <Navbar/>

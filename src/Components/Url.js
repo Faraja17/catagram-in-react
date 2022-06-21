@@ -1,6 +1,6 @@
 
 
-const Url = () => {
+const Url = (props) => {
     let url = '';
     const setUrl = (e) => {
         url = e.target.value;
