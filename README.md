@@ -17,7 +17,7 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 
 ## Overview
 
-This cohort cleverly has taken us through a series of exercises which have directly lead to creating the culminating project. The goal of the project was to mock-up a few components of Instagram: a navigation bar, a URL bar, images of cats, and a like counter/display for each image. I really liked the teaching style of having us experiment on our own, given the practiced exercises and a few additional challenges needing research. This was a great introduction to React!
+This cohort cleverly has taken us through a series of exercises which have directly lead to creating the culminating project. The goal of the project was to mock-up a few components of Instagram: a navigation bar, a URL input bar, images of cats, and a like counter/display for each image. I really liked the teaching style of having us experiment on our own, given the practiced exercises and a few additional challenges needing research. This was a great introduction to React!
 
 ### Screenshots
 <!-- | <b>Mobile View</b>|  -->
