@@ -35,7 +35,9 @@ This cohort cleverly has taken us through a series of exercises which have direc
 
 ## My process
 
-After class four, I was assigned the challenge of creating a template using React in preparation for developing the Catagram webpage. At first, I was unsure about how to begin. Reviewing the class exercises really helped to guide me, and there was just enough mystery for me to have to figure out on my own to make the assignment an appropriate challenge. One major thing that I figured out was that the styling for all of the components can go in the CSS.js file. I had started out creating separate CSS files for each component. It was only by chance that I figured out the correction. I had accidentally placed some of my styling into the wrong CSS file and noticed that it still worked! So I deleted the extra CSS files and placed all of the styling in one central location, which is actually a great feature of React!
+After class four, I was assigned the challenge of creating a template using React in preparation for developing the Catagram webpage. At first, I was unsure about how to begin. Reviewing the class exercises really helped to guide me, and there was just enough mystery for me to have to figure out on my own to make the assignment an appropriate challenge. 
+
+One major thing that I figured out was that the styling for all of the components can go in the CSS.js file. I had started out creating separate CSS files for each component. It was only by chance that I figured out the correction. I had accidentally placed some of my styling into the wrong CSS file and noticed that it still worked! So I deleted the extra CSS files and placed all of the styling in one central location, which is actually a great feature of React!
 
 In addition to creating the template, I used what I had learned in the exercises to add an event handler for the URL bar and to console.log the like count.
 
