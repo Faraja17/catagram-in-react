@@ -65,8 +65,8 @@ In addition to creating the template, I used what I had learned in the exercises
 ### Useful resources
 
 - [Avatar URL Generator](https://vinicius73.github.io/gravatar-url-generator/#/) - The site we used to generate our own cute cat avatars for class 3 exercises!
-- []() - annotation
-- 
+<!-- - []() - annotation -->
+
 ## Author
 
 Faraja Thompson
