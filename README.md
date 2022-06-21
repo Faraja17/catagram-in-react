@@ -17,8 +17,7 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 
 ## Overview
 
-
-
+This cohort has cleverly taken us through a series of exercises which have directly lead to creating the culminating project. The goal of the project was to mock-up a few components of Instagram: a navigation bar, a URL bar, images of cats, and a like counter/display for each image. I really liked the teaching style of having us experiment on our own, given the practiced exercises and a few additional challenges needing research. This was a great introduction to React!
 
 ### Screenshots
 <!-- | <b>Mobile View</b>|  -->
@@ -36,6 +35,11 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 
 ## My process
 
+After class four, I was assigned the challenge of creating a template using React in preparation for developing the Catagram webpage. At first, I was unsure about how to begin. Reviewing the class exercises really helped to guide me, and there was just enough mystery for me to have to figure out on my own to make the assignment an appropriate challenge. One major thing that I figured out was that the styling for all of the components can go in the CSS.js file. I had started out creating separate CSS files for each component. It was only by chance that I figured out the correction. I had accidentally placed some of my styling into the wrong CSS file and noticed that it still worked! So I deleted the extra CSS files and placed all of the styling in one central location, which is actually a great feature of React!
+
+In addition to creating the template, I used what I had learned in the exercises to add an event handler for the URL bar and to console.log the like count.
+
+6/20/22 - Today's challenge was to add the event handler and like count functions, which I had already completed, and to hide the like counter when the count equals 0. This took some research, I had forgotten how to use the display vs. visibility properties. I reviewed both, and decided to use `visibility: count == 0 ? 'hidden' : 'visible'` because the footprint of the element remains when it is hidden.
 
 
 ### Built with
@@ -45,7 +49,14 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 
 ### What I learned
 
-
+-function vs. class components
+-JSX
+-ternary operator
+-props
+-one-way data flow
+-event handling
+-states
+-review of display vs. visibility properties
 
 ### Continued development
 
@@ -53,7 +64,7 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 
 ### Useful resources
 
-- []() - annotation
+- [Avatar URL Generator](https://vinicius73.github.io/gravatar-url-generator/#/) - The site we used to generate our own cute cat avatars for class 3 exercises!
 - []() - annotation
 - 
 ## Author
