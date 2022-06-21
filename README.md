@@ -39,7 +39,7 @@ After class four, I was assigned the challenge of creating a template using Reac
 
 In addition to creating the template, I used what I had learned in the exercises to add an event handler for the URL bar and to console.log the like count.
 
-6/20/22 - During class five, we learned how `useState` enables us to actually get the like count functioning, rather than just console.log. This is the magical code: `const [count, setCount] = useState(0);`Today's challenge was to add the event handler and like count functions, which I had already completed, and to hide the like counter when the count equals 0. This took some research, I had forgotten how to use the display vs. visibility properties. I reviewed both, and decided to use `visibility: count == 0 ? 'hidden' : 'visible'` because the footprint of the element remains when it is hidden.
+6/20/22 - During class five, we learned how `useState` enables us to actually get the like count functioning, rather than just seeing it through `console.log`. This is the magical code: `const [count, setCount] = useState(0);`Today's challenge was to add the event handler and like count functions, which I had already completed, and to hide the like counter when the count equals 0. This took some research, I had forgotten how to use the display vs. visibility properties. I reviewed both, and decided to use `visibility: count == 0 ? 'hidden' : 'visible'` because the footprint of the element remains when it is hidden.
 
 
 ### Built with
