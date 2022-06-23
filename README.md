@@ -61,6 +61,7 @@ Today's challenge was to add the event handler and like count functions, which I
 - event handling
 - states
 - review of display vs. visibility properties
+- react router
 
 ### Continued development
 
