@@ -22,7 +22,7 @@ This cohort cleverly has taken us through a series of exercises which have direc
 ### Screenshots
 <!-- | <b>Mobile View</b>|  -->
 <!-- |:--:| -->
-<!-- | ![My Solution for Mobile]() | -->
+<!-- | ![My Solution for Mobile](https://github.com/Faraja17/catagram-in-react/blob/main/Screen%20Shot%202022-06-29%20at%205.17.45%20AM.png?raw=true) | -->
 
 | <b>Desktop View</b>| 
 |:--:|
