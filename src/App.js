@@ -32,6 +32,7 @@ const App = () => {
     <Post post={post} />
     </div>   
   );
-};
+}; 
+// 
 
 export default App;
