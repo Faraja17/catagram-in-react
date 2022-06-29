@@ -10,13 +10,14 @@ const App = () => {
 
   const makePost = () => {
     setPost([...post, url]); /*The ... is the spread operator. It means that all previous posts of the array will be included along with the new post. */
+    setUrl(''); /*This resets the URL bar after each submission*/
   };
 
   console.log(post);
   
   return (
     <div className="App">
-     <Navbar />
+     <Navbar /> {/*This is the navbar component*/}
     <>
     {/* Here is the URL bar that inputs the user's URL. */}
       <div className='form'>
@@ -24,6 +25,7 @@ const App = () => {
               className='url'
               type='text'
               placeholder='enter cat pic URL here'
+              value = {url} /*This helps to reset the URL bar after each submission. */
               onChange = {(e) => setUrl(e.target.value)
               }
           />
@@ -36,7 +38,7 @@ const App = () => {
         <div>
           {/* The map() function iterates over the array to manipulate individual data items. In React, as in this case, it is used to render the items to the DOM. */}
           {post.map((item) => (
-            <Post post={item} />
+            <Post post={item} /> /*This is the child component that received the props. */
           ))};
         </div>   
       )}; 
