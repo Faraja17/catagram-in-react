@@ -16,6 +16,7 @@ a {
 }
 
 .form {
+  margin: 0 auto;
   margin-top: 2%;
   text-align: center;
 }
@@ -47,6 +48,7 @@ img  {
 .likesCount {
   text-align: left;
   border-style: solid;
+  border-top: none;
   border-color: rgb(225, 222, 222);
   width: 44.2%;
   margin: 0 auto;
