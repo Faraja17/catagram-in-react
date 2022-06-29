@@ -26,7 +26,7 @@ This cohort cleverly has taken us through a series of exercises which have direc
 
 | <b>Desktop View</b>| 
 |:--:|
-| ![My Solution for Desktop](https://github.com/Faraja17/catagram-in-react/blob/main/Screen%20Shot%202022-06-19%20at%203.22.27%20AM.png?raw=true) |
+| ![My Solution for Desktop](https://github.com/Faraja17/catagram-in-react/blob/main/Screen%20Shot%202022-06-29%20at%205.17.14%20AM.png?raw=true) |
 
 
 ### Links
