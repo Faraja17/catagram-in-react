@@ -6,22 +6,19 @@ const Likes = (props) => {
     console.log(`likes: ${count}`);
 
     return(
-        // ternary operator: if url bar is empty, display an empty div. Else, post the picture and the likes
         <>
-            {props.post === '' ? (
-                <div> </div>
-            ) : (
-                <div className='likes'>
-                    <img src={props.post} alt='kitten pics'/>
-                    <div className="likesCount">
-                        <h3 style={{ visibility: count === 0 ? 'hidden' : 'visible' }}>{count} likes</h3>
-                        <button className='like' type='submit' onClick= {() => setCount(count + 1)}>Like</button>
-                        {/* <button onClick ={() => setCount(0)}>reset</button>
-                        <button className='like' type='submit' onClick= {() => setCount(count - 1)}>Disike</button> */}
+            
+            <div className='likes'>
+                <img src={props.post} alt='kitten pics'/>
+                <div className="likesCount">
+                    <h3 style={{ visibility: count === 0 ? 'hidden' : 'visible' }}>{count} likes</h3>
+                    <button className='like' type='submit' onClick= {() => setCount(count + 1)}>Like</button>
+                    {/* <button onClick ={() => setCount(0)}>reset</button>
+                    <button className='like' type='submit' onClick= {() => setCount(count - 1)}>Disike</button> */}
 
-                    </div>
                 </div>
-            )}
+            </div>
+           
         </>
     );
 };

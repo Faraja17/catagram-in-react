@@ -4,21 +4,22 @@ import Post from './Components/Post';
 import './App.css';
 
 const App = () => {
-  // const searchFun = (e) => {
-  //   console.log(e);
-  // };
-  const [post, setPost] = useState('');
+// The post useState is an array in order to store each post. The url useState stores the URL.
+  const [post, setPost] = useState([]);
   const [url, setUrl] = useState('');
-  
 
-  console.log(url);
+  const makePost = () => {
+    setPost([...post, url]); /*The ... is the spread operator. It means that all previous posts of the array will be included along with the new post. */
+  };
+
+  console.log(post);
   
   return (
     <div className="App">
      <Navbar />
-     
     <>
-      <form className='form'>
+    {/* Here is the URL bar that inputs the user's URL. */}
+      <div className='form'>
           <input 
               className='url'
               type='text'
@@ -26,13 +27,21 @@ const App = () => {
               onChange = {(e) => setUrl(e.target.value)
               }
           />
-          <button type='button' className='submit' onClick={() => setPost(url)}>Submit</button>
-      </form>
+          <button type='button' className='submit' onClick={() => makePost(url)}>Submit</button>
+      </div>
+      {/* ternary operator: if url bar is empty, display an empty div. Else, post the item (picture and the like counter). */}
+      {post === '' ? (
+        <div> </div>
+      ) : (
+        <div>
+          {/* The map() function iterates over the array to manipulate individual data items. In React, as in this case, it is used to render the items to the DOM. */}
+          {post.map((item) => (
+            <Post post={item} />
+          ))};
+        </div>   
+      )}; 
     </>
-    <Post post={post} />
-    </div>   
+    </div>
   );
-}; 
-// 
-
+};
 export default App;
