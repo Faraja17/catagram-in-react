@@ -20,9 +20,9 @@ Descripton: This is the culminating project of the Girl Develop It Intro to Reac
 This cohort cleverly has taken us through a series of exercises which have directly lead to creating the culminating project. The goal of the project was to mock-up a few components of Instagram: a navigation bar, a URL input bar, images of cats, and a like counter/display for each image. I really liked the teaching style of having us experiment on our own, given the practiced exercises and a few additional challenges needing research. This was a great introduction to React!
 
 ### Screenshots
-<!-- | <b>Mobile View</b>|  -->
-<!-- |:--:| -->
-<!-- | ![My Solution for Mobile](https://github.com/Faraja17/catagram-in-react/blob/main/Screen%20Shot%202022-06-29%20at%205.17.45%20AM.png?raw=true) | -->
+| <b>Mobile View</b>| 
+|:--:|
+| ![My Solution for Mobile](https://github.com/Faraja17/catagram-in-react/blob/main/Screen%20Shot%202022-06-29%20at%205.17.45%20AM.png?raw=true) |
 
 | <b>Desktop View</b>| 
 |:--:|
