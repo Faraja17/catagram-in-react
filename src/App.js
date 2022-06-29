@@ -3,14 +3,15 @@ import Navbar from './Components/Navbar';
 import Post from './Components/Post';
 import './App.css';
 
-const App = (props) => {
+const App = () => {
   // const searchFun = (e) => {
   //   console.log(e);
   // };
   const [post, setPost] = useState('');
   const [url, setUrl] = useState('');
+  
 
-  console.log(post);
+  console.log(url);
   
   return (
     <div className="App">
@@ -22,15 +23,15 @@ const App = (props) => {
               className='url'
               type='text'
               placeholder='enter a url here'
-              onChange={(e) => setUrl(e.target.value)}
+              onChange = {(e) => setUrl(e.target.value)
+              }
           />
-          <button className='submit' type= 'submit'onClick={() => setPost(url)}>Submit</button>
+          <button type='button' className='submit' onClick={() => setPost(url)}>Submit</button>
       </form>
     </>
     <Post post={post} />
     </div>   
-  
   );
-}
+};
 
 export default App;
