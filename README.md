@@ -32,6 +32,8 @@ This cohort cleverly has taken us through a series of exercises which have direc
 ### Links
 
 - Live Site URL: [Visit Catagram on Codesandbox!](https://z11j68.csb.app/)
+- Get a cat pic URL here: [Pixabay.com](https://pixabay.com/images/search/cat/)
+  - right click on your picture choice, select "Copy Image Address", then paste the stored URL into the Catagram URL bar.
 
 ## My process
 
