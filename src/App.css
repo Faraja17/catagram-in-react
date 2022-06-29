@@ -1,18 +1,24 @@
-.App {
-  
-}
 .nav {
   background-color: rgb(234, 80, 80);
   line-height: 4rem;
-
 }
 
+a {
+  text-align: left;
+  color: white;
+  font-size: 1rem;
+  padding: 1%;
+  margin-top: 10%;
+}
+
+@media screen and (min-width: 600px) {
 a {
   text-align: left;
   color: white;
   font-size: 1.5rem;
   padding: 1%;
   margin-top: 10%;
+}
 }
 
 .form {
@@ -22,13 +28,32 @@ a {
 }
 
 .url {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  width: 40%;
+  font-size: .9rem;
+  line-height: 2.1rem;
+  width: 44%;
   border-style: solid;
   border-color: rgb(225, 222, 222);
-  
 }
+
+@media screen and (min-width: 600px) {
+.url {
+  font-size: 1rem;
+  line-height: 2.2rem;
+  width: 35%;
+  border-style: solid;
+  border-color: rgb(225, 222, 222);
+}
+}
+
+@media screen and (min-width: 900px) {
+  .url {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    width: 40%;
+    border-style: solid;
+    border-color: rgb(225, 222, 222);
+  }
+  }
 
 .submit {
   font-size: 1.2rem;
@@ -39,12 +64,31 @@ a {
 }
 
 img  {
-  width: 44.5%;
+  width: 60%;
   margin: 1% auto 0;
   display: block;
   
 }
 
+@media screen and (min-width: 600px) {
+img  {
+  width: 44.5%;
+  margin: 1% auto 0;
+  display: block;
+  
+}
+}
+
+.likesCount {
+  text-align: left;
+  border-style: solid;
+  border-top: none;
+  border-color: rgb(225, 222, 222);
+  width: 59%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
 .likesCount {
   text-align: left;
   border-style: solid;
@@ -53,10 +97,24 @@ img  {
   width: 44.2%;
   margin: 0 auto;
 }
+}
 
 h3 {
   display: inline-block;
-  width: 90%;
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: .5%;
+  border-style: none;
+  line-height: 2rem;
+  font-size: .8;
+  padding: 1.5%;
+  text-align: left;
+}
+
+@media screen and (min-width: 600px) {
+h3 {
+  display: inline-block;
+  width: 78%;
   margin-top: 0;
   margin-bottom: .5%;
   border-style: none;
@@ -64,9 +122,31 @@ h3 {
   padding: 1.5%;
   text-align: left;
 }
+}
+
+@media screen and (min-width: 900px) {
+  h3 {
+    display: inline-block;
+    width: 88%;
+    margin-top: 0;
+    margin-bottom: .5%;
+    border-style: none;
+    line-height: 2.5rem;
+    padding: 1.5%;
+    text-align: left;
+  }
+  }
 
 .like {
   background-color: white;
   border: none;
+  font-size: .8rem;
+}
+
+@media screen and (min-width: 600px) {
+.like {
+  background-color: white;
+  border: none;
   font-size: 1.2rem;
+}
 }

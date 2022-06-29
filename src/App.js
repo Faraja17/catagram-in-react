@@ -22,7 +22,7 @@ const App = () => {
           <input 
               className='url'
               type='text'
-              placeholder='enter a url here'
+              placeholder='enter cat pic URL here'
               onChange = {(e) => setUrl(e.target.value)
               }
           />
