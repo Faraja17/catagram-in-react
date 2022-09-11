@@ -34,6 +34,8 @@ This cohort cleverly has taken us through a series of exercises which have direc
 - Live Site URL: [Visit Catagram on Codesandbox!](https://z11j68.csb.app/)
 - Get a cat pic URL here: [Pixabay.com](https://pixabay.com/images/search/cat/)
   - right click on your picture choice, select "Copy Image Address", then paste the stored URL into the Catagram URL bar.
+- Or simply copy and paste my cat gravitar's url: [https://robohash.org/c682aa2141573f20200f8792efdb85c5?set=set4&bgset=&size=400x400](https://robohash.org/c682aa2141573f20200f8792efdb85c5?set=set4&bgset=&size=400x400)
+- You can paste multiple times to create additional posts.
 
 ## My process
 
